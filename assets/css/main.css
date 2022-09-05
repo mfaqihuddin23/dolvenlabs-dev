@@ -9,3 +9,39 @@
     background: #030102;
   }
 }
+body{
+  background: #030102;
+  font-family: 'Poppins', sans-serif;
+}
+.garis-gradient{
+  position: relative;
+    display: inline-flex;
+    align-items: center;
+    padding: 2px 8px;
+    background: none;
+    /* border-radius: 10px; */
+    color: #EB4692;
+    font-size: 10px;
+    font-weight: 500;
+    letter-spacing: .2px;
+    line-height: 13px;
+    --size: 1.5px;
+    /* --gradient: linear-gradient(to bottom right,rgba(5,45,255,.6),rgba(62,243,255,.6)); */
+    --gradient: linear-gradient(99.84deg, #EA4889 -7.33%, #EC38CF 113.19%);
+}
+.garis-gradient::before{
+    position: absolute;
+    padding: var(--size);
+    background: var(--gradient);
+    border-radius: inherit;
+    content: "";
+    inset: 0;
+    -webkit-mask: linear-gradient(#000,#000) content-box,linear-gradient(#000,#000);
+    mask: linear-gradient(#000,#000) content-box,linear-gradient(#000,#000);
+    -webkit-mask-composite: xor;
+    mask-composite: exclude;
+}
+.text-notif{
+  font-size: 8px;
+  line-height: 135%;
+}

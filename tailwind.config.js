@@ -9,6 +9,15 @@ module.exports = {
     extend: {
       fontFamily:{
         poppins: ["Poppins", "sans-serif"]
+      },
+      colors:{
+        dolvenGrad: {
+          100 : '#EA4889',
+          200 : '#EC38CF',
+        },
+        dolvenCol:{
+
+        },
       }
     },
   },
