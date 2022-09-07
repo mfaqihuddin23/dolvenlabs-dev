@@ -790,10 +790,6 @@ body{
   left: 0px;
 }
 
-.right-0{
-  right: 0px;
-}
-
 .z-20{
   z-index: 20;
 }
@@ -851,6 +847,10 @@ body{
   margin-bottom: 4rem;
 }
 
+.mb-36{
+  margin-bottom: 9rem;
+}
+
 .block{
   display: block;
 }
@@ -905,6 +905,18 @@ body{
   width: 58.333333%;
 }
 
+.w-4\/12{
+  width: 33.333333%;
+}
+
+.list-disc{
+  list-style-type: disc;
+}
+
+.flex-row-reverse{
+  flex-direction: row-reverse;
+}
+
 .flex-col{
   flex-direction: column;
 }
@@ -923,10 +935,6 @@ body{
 
 .justify-start{
   justify-content: flex-start;
-}
-
-.justify-end{
-  justify-content: flex-end;
 }
 
 .justify-center{
@@ -993,12 +1001,22 @@ body{
   --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
 }
 
+.from-dolvenGrad-400{
+  --tw-gradient-from: #333399;
+  --tw-gradient-to: rgb(51 51 153 / 0);
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
+}
+
 .to-dolvenGrad-200{
   --tw-gradient-to: #EC38CF;
 }
 
 .to-black{
   --tw-gradient-to: #000;
+}
+
+.to-dolvenGrad-500{
+  --tw-gradient-to: #FF00CC;
 }
 
 .bg-clip-text{
@@ -1059,6 +1077,16 @@ body{
   padding-bottom: 1rem;
 }
 
+.py-12{
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+.py-28{
+  padding-top: 7rem;
+  padding-bottom: 7rem;
+}
+
 .pr-4{
   padding-right: 1rem;
 }
@@ -1067,16 +1095,12 @@ body{
   padding-left: 0.75rem;
 }
 
-.pt-20{
-  padding-top: 5rem;
-}
-
-.pl-16{
-  padding-left: 4rem;
-}
-
 .pl-20{
   padding-left: 5rem;
+}
+
+.pl-4{
+  padding-left: 1rem;
 }
 
 .text-center{
@@ -1140,10 +1164,6 @@ body{
 .text-dolvenCol-200{
   --tw-text-opacity: 1;
   color: rgb(139 143 151 / var(--tw-text-opacity));
-}
-
-.filter{
-  filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
 }
 
 body{
@@ -1240,6 +1260,15 @@ h4{
 
 section.header .body-1{
   max-width: 600px;
+}
+
+section.slide h4{
+  line-height: 125%;
+  letter-spacing: 0.3em;
+}
+
+section.slide p{
+  letter-spacing: -0.04em;
 }
 
 .hover\:bg-gray-100:hover{
