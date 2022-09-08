@@ -876,6 +876,10 @@ body{
   margin-bottom: 0.25rem;
 }
 
+.mb-8{
+  margin-bottom: 2rem;
+}
+
 .block{
   display: block;
 }
@@ -932,6 +936,14 @@ body{
 
 .w-4\/12{
   width: 33.333333%;
+}
+
+.w-4\/6{
+  width: 66.666667%;
+}
+
+.w-3\/6{
+  width: 50%;
 }
 
 .max-w-md{
@@ -1035,6 +1047,10 @@ body{
   background-image: linear-gradient(to top right, var(--tw-gradient-stops));
 }
 
+.bg-gradient-to-br{
+  background-image: linear-gradient(to bottom right, var(--tw-gradient-stops));
+}
+
 .from-dolvenGrad-100{
   --tw-gradient-from: #EA4889;
   --tw-gradient-to: rgb(234 72 137 / 0);
@@ -1059,6 +1075,12 @@ body{
   --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
 }
 
+.from-dolvenGrad-500{
+  --tw-gradient-from: #FF00CC;
+  --tw-gradient-to: rgb(255 0 204 / 0);
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
+}
+
 .to-dolvenGrad-200{
   --tw-gradient-to: #EC38CF;
 }
@@ -1069,6 +1091,10 @@ body{
 
 .to-dolvenGrad-500{
   --tw-gradient-to: #FF00CC;
+}
+
+.to-dolvenGrad-400{
+  --tw-gradient-to: #333399;
 }
 
 .bg-clip-text{
@@ -1166,6 +1192,18 @@ body{
 
 .pl-4{
   padding-left: 1rem;
+}
+
+.pr-20{
+  padding-right: 5rem;
+}
+
+.pr-16{
+  padding-right: 4rem;
+}
+
+.pl-16{
+  padding-left: 4rem;
 }
 
 .text-center{
