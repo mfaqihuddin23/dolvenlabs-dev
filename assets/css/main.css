@@ -57,6 +57,7 @@ body{
 h1{
   font-size: 80px;
   line-height: 125%;
+  letter-spacing: -0.02em;
 }
 h2{
   font-size: 64px;
@@ -112,4 +113,7 @@ section.slide p{
 }
 section.invest p{
   max-width: 871px;
+}
+.keypoint-box{
+  padding: 75px;
 }
