@@ -803,6 +803,11 @@ body{
   margin-right: auto;
 }
 
+.mx-2{
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+}
+
 .mr-3{
   margin-right: 0.75rem;
 }
@@ -865,6 +870,10 @@ body{
 
 .ml-4{
   margin-left: 1rem;
+}
+
+.mb-1{
+  margin-bottom: 0.25rem;
 }
 
 .block{
@@ -1013,6 +1022,11 @@ body{
   background-color: rgb(28 29 31 / var(--tw-bg-opacity));
 }
 
+.bg-dolvenCol-600{
+  --tw-bg-opacity: 1;
+  background-color: rgb(172 58 240 / var(--tw-bg-opacity));
+}
+
 .bg-gradient-to-r{
   background-image: linear-gradient(to right, var(--tw-gradient-stops));
 }
@@ -1055,10 +1069,6 @@ body{
 
 .to-dolvenGrad-500{
   --tw-gradient-to: #FF00CC;
-}
-
-.bg-fixed{
-  background-attachment: fixed;
 }
 
 .bg-clip-text{
@@ -1308,6 +1318,12 @@ h4{
   letter-spacing: -0.02em;
 }
 
+h5{
+  font-size: 18px;
+  line-height: 125%;
+  letter-spacing: -0.02em;
+}
+
 .body-1{
   font-size: 16px;
   line-height: 180%;
@@ -1359,6 +1375,11 @@ section.invest p{
 
 .keypoint-box{
   padding: 75px;
+}
+
+.profile-holder{
+  width: 170px;
+  height: 170px;
 }
 
 .hover\:bg-gray-100:hover{
