@@ -102,3 +102,14 @@ section.slide h4{
 section.slide p{
   letter-spacing: -0.04em;
 }
+.swiper{
+  width: auto;
+  height: auto;
+  overflow: visible;
+}
+.swiper-slide{
+  width: max-content;
+}
+section.invest p{
+  max-width: 871px;
+}

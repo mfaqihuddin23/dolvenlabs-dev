@@ -909,6 +909,10 @@ body{
   width: 33.333333%;
 }
 
+.max-w-md{
+  max-width: 28rem;
+}
+
 .list-disc{
   list-style-type: disc;
 }
@@ -973,6 +977,11 @@ body{
 .bg-dolvenGrad-300{
   --tw-bg-opacity: 1;
   background-color: rgb(236 70 151 / var(--tw-bg-opacity));
+}
+
+.bg-white{
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
 .bg-gradient-to-r{
@@ -1166,6 +1175,16 @@ body{
   color: rgb(139 143 151 / var(--tw-text-opacity));
 }
 
+.text-black{
+  --tw-text-opacity: 1;
+  color: rgb(0 0 0 / var(--tw-text-opacity));
+}
+
+.text-dolvenCol-400{
+  --tw-text-opacity: 1;
+  color: rgb(71 84 103 / var(--tw-text-opacity));
+}
+
 body{
   background: #030102;
   font-family: 'Poppins', sans-serif;
@@ -1269,6 +1288,22 @@ section.slide h4{
 
 section.slide p{
   letter-spacing: -0.04em;
+}
+
+.swiper{
+  width: auto;
+  height: auto;
+  overflow: visible;
+}
+
+.swiper-slide{
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+}
+
+section.invest p{
+  max-width: 871px;
 }
 
 .hover\:bg-gray-100:hover{
