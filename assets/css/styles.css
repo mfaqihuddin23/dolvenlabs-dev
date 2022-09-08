@@ -880,6 +880,14 @@ body{
   margin-bottom: 2rem;
 }
 
+.mr-8{
+  margin-right: 2rem;
+}
+
+.ml-8{
+  margin-left: 2rem;
+}
+
 .block{
   display: block;
 }
@@ -938,14 +946,6 @@ body{
   width: 33.333333%;
 }
 
-.w-4\/6{
-  width: 66.666667%;
-}
-
-.w-3\/6{
-  width: 50%;
-}
-
 .max-w-md{
   max-width: 28rem;
 }
@@ -988,6 +988,10 @@ body{
 
 .justify-between{
   justify-content: space-between;
+}
+
+.overflow-hidden{
+  overflow: hidden;
 }
 
 .rounded-full{
@@ -1194,14 +1198,6 @@ body{
   padding-left: 1rem;
 }
 
-.pr-20{
-  padding-right: 5rem;
-}
-
-.pr-16{
-  padding-right: 4rem;
-}
-
 .pl-16{
   padding-left: 4rem;
 }
@@ -1382,6 +1378,10 @@ h5{
   letter-spacing: 0.6em;
 }
 
+section{
+  /* max-width: 100%; */
+}
+
 section.header .body-1{
   max-width: 600px;
 }
@@ -1398,7 +1398,7 @@ section.slide p{
 .swiper{
   width: auto;
   height: auto;
-  overflow: visible;
+  /* overflow: visible; */
 }
 
 .swiper-slide{

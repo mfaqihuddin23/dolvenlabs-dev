@@ -98,6 +98,10 @@ h5{
   letter-spacing: 0.6em;
 }
 
+section{
+  /* max-width: 100%; */
+}
+
 section.header .body-1{
   max-width: 600px;
 }
@@ -111,7 +115,7 @@ section.slide p{
 .swiper{
   width: auto;
   height: auto;
-  overflow: visible;
+  /* overflow: visible; */
 }
 .swiper-slide{
   width: max-content;

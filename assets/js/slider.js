@@ -46,7 +46,7 @@ const swiper1 = new Swiper('.swiper1', {
 
 const swiper2 = new Swiper('.swiper2', {
   slidesPerView: 'auto',
-  spaceBetween: 70,
+  spaceBetween: 100,
   // Optional parameters
   direction: 'horizontal',
   loop: true,
@@ -70,7 +70,7 @@ const swiper2 = new Swiper('.swiper2', {
 
 const swiper3 = new Swiper('.swiper3', {
   slidesPerView: 'auto',
-  spaceBetween: 70,
+  spaceBetween: 100,
   // Optional parameters
   direction: 'horizontal',
   loop: true,
