@@ -808,6 +808,11 @@ body{
   margin-right: 0.5rem;
 }
 
+.mx-3{
+  margin-left: 0.75rem;
+  margin-right: 0.75rem;
+}
+
 .mr-3{
   margin-right: 0.75rem;
 }
@@ -884,6 +889,10 @@ body{
   margin-right: 2rem;
 }
 
+.mb-14{
+  margin-bottom: 3.5rem;
+}
+
 .ml-8{
   margin-left: 2rem;
 }
@@ -944,6 +953,10 @@ body{
 
 .w-4\/12{
   width: 33.333333%;
+}
+
+.w-10\/12{
+  width: 83.333333%;
 }
 
 .max-w-md{
@@ -1182,6 +1195,16 @@ body{
   padding-bottom: 8rem;
 }
 
+.px-14{
+  padding-left: 3.5rem;
+  padding-right: 3.5rem;
+}
+
+.py-9{
+  padding-top: 2.25rem;
+  padding-bottom: 2.25rem;
+}
+
 .pr-4{
   padding-right: 1rem;
 }
@@ -1376,6 +1399,14 @@ h5{
 
 .capt-1{
   letter-spacing: 0.6em;
+}
+
+.capt-2{
+  letter-spacing: 0.3em;
+}
+
+.capt-3{
+  letter-spacing: -0.04em;
 }
 
 section{

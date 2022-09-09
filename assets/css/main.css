@@ -97,6 +97,12 @@ h5{
 .capt-1{
   letter-spacing: 0.6em;
 }
+.capt-2{
+  letter-spacing: 0.3em;
+}
+.capt-3{
+  letter-spacing: -0.04em;
+}
 
 section{
   /* max-width: 100%; */
