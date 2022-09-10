@@ -886,8 +886,8 @@ body{
   margin-bottom: 1rem;
 }
 
-.mb-6{
-  margin-bottom: 1.5rem;
+.mb-64{
+  margin-bottom: 16rem;
 }
 
 .mt-12{
@@ -950,12 +950,12 @@ body{
   margin-left: 2rem;
 }
 
-.mb-12{
-  margin-bottom: 3rem;
+.mb-6{
+  margin-bottom: 1.5rem;
 }
 
-.mb-2{
-  margin-bottom: 0.5rem;
+.mb-12{
+  margin-bottom: 3rem;
 }
 
 .mt-6{
@@ -964,6 +964,10 @@ body{
 
 .mb-60{
   margin-bottom: 15rem;
+}
+
+.mb-2{
+  margin-bottom: 0.5rem;
 }
 
 .ml-2{
@@ -1006,10 +1010,6 @@ body{
   width: 1.5rem;
 }
 
-.w-6\/12{
-  width: 50%;
-}
-
 .w-max{
   width: -webkit-max-content;
   width: -moz-max-content;
@@ -1030,6 +1030,10 @@ body{
 
 .w-4\/12{
   width: 33.333333%;
+}
+
+.w-6\/12{
+  width: 50%;
 }
 
 .w-10\/12{
@@ -1060,12 +1064,20 @@ body{
   grid-template-columns: repeat(2, minmax(0, 1fr));
 }
 
+.grid-rows-3{
+  grid-template-rows: repeat(3, minmax(0, 1fr));
+}
+
 .flex-row-reverse{
   flex-direction: row-reverse;
 }
 
 .flex-col{
   flex-direction: column;
+}
+
+.flex-col-reverse{
+  flex-direction: column-reverse;
 }
 
 .flex-wrap{
@@ -1270,14 +1282,19 @@ body{
   padding-bottom: 0.5rem;
 }
 
-.py-24{
-  padding-top: 6rem;
-  padding-bottom: 6rem;
-}
-
 .px-6{
   padding-left: 1.5rem;
   padding-right: 1.5rem;
+}
+
+.px-8{
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.py-24{
+  padding-top: 6rem;
+  padding-bottom: 6rem;
 }
 
 .px-10{
@@ -1491,6 +1508,7 @@ body{
 }
 
 .container{
+  width: 90%;
   max-width: 1227px;
 }
 
@@ -1501,13 +1519,15 @@ h1{
 }
 
 h2{
-  font-size: 64px;
+  /* font-size: 64px;  */
+  font-size: 32px;
   line-height: 115%;
   letter-spacing: -0.02em;
 }
 
 h3{
-  font-size: 56px;
+  /* font-size: 56px; */
+  font-size: 32px;
   line-height: 115%;
   letter-spacing: -0.02em;
 }
@@ -1525,7 +1545,8 @@ h5{
 }
 
 .body-1{
-  font-size: 16px;
+  /* font-size: 16px; */
+  font-size: 12px;
   line-height: 180%;
   letter-spacing: -0.02em;
 }
@@ -1538,6 +1559,11 @@ h5{
 .body-3{
   font-size: 12px;
   line-height: 125%;
+}
+
+.text-xxs{
+  font-size: 8px;
+  line-height: 100%;
 }
 
 .capt-1{
@@ -1598,6 +1624,53 @@ section.newsletter{
   background: linear-gradient(93.42deg, #03001E -3.17%, #7303C0 31.28%, #EC38BC 67.93%, #FDEFF9 105.18%);
 }
 
+@media (min-width: 640px) {
+}
+
+@media (min-width: 768px) {
+}
+
+@media (min-width: 1024px) {
+  h1{
+    font-size: 80px;
+  }
+
+  h2{
+    font-size: 64px;
+  }
+
+  h3{
+    font-size: 56px;
+  }
+
+  h4{
+    font-size: 32px;
+  }
+
+  h5{
+    font-size: 18px;
+  }
+
+  .body-1{
+    font-size: 16px;
+  }
+
+  .body-2{
+    font-size: 14px;
+  }
+
+  .body-3{
+    font-size: 12px;
+  }
+
+  .text-xxs{
+    font-size: 12px;
+  }
+}
+
+@media (min-width: 1280px) {
+}
+
 .hover\:bg-gray-100:hover{
   --tw-bg-opacity: 1;
   background-color: rgb(243 244 246 / var(--tw-bg-opacity));
@@ -1612,11 +1685,6 @@ section.newsletter{
   --tw-ring-offset-shadow: var(--tw-ring-inset) 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color);
   --tw-ring-shadow: var(--tw-ring-inset) 0 0 0 calc(2px + var(--tw-ring-offset-width)) var(--tw-ring-color);
   box-shadow: var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, 0 0 #0000);
-}
-
-.focus\:ring-gray-200:focus{
-  --tw-ring-opacity: 1;
-  --tw-ring-color: rgb(229 231 235 / var(--tw-ring-opacity));
 }
 
 @media (prefers-color-scheme: dark){
@@ -1680,6 +1748,30 @@ section.newsletter{
     margin-top: 0px;
   }
 
+  .md\:mb-6{
+    margin-bottom: 1.5rem;
+  }
+
+  .md\:mb-0{
+    margin-bottom: 0px;
+  }
+
+  .md\:mr-4{
+    margin-right: 1rem;
+  }
+
+  .md\:ml-4{
+    margin-left: 1rem;
+  }
+
+  .md\:mr-8{
+    margin-right: 2rem;
+  }
+
+  .md\:ml-8{
+    margin-left: 2rem;
+  }
+
   .md\:flex{
     display: flex;
   }
@@ -1692,8 +1784,32 @@ section.newsletter{
     width: auto;
   }
 
+  .md\:w-6\/12{
+    width: 50%;
+  }
+
+  .md\:w-5\/12{
+    width: 41.666667%;
+  }
+
+  .md\:w-7\/12{
+    width: 58.333333%;
+  }
+
+  .md\:w-4\/12{
+    width: 33.333333%;
+  }
+
+  .md\:grid-cols-3{
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
   .md\:flex-row{
     flex-direction: row;
+  }
+
+  .md\:flex-row-reverse{
+    flex-direction: row-reverse;
   }
 
   .md\:space-x-8 > :not([hidden]) ~ :not([hidden]){
@@ -1708,6 +1824,30 @@ section.newsletter{
 
   .md\:p-0{
     padding: 0px;
+  }
+
+  .md\:py-24{
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+  }
+
+  .md\:px-10{
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+  }
+
+  .md\:py-4{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+
+  .md\:text-start{
+    text-align: start;
+  }
+
+  .md\:text-base{
+    font-size: 1rem;
+    line-height: 1.5rem;
   }
 
   .md\:text-blue-700{

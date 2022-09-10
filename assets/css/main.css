@@ -51,6 +51,7 @@ body{
   letter-spacing: -0.02em;
 }
 .container{
+  width: 90%;
   max-width: 1227px;
 }
 
@@ -60,12 +61,14 @@ h1{
   letter-spacing: -0.02em;
 }
 h2{
-  font-size: 64px;
+  /* font-size: 64px;  */
+  font-size: 32px;
   line-height: 115%;
   letter-spacing: -0.02em;
 }
 h3{
-  font-size: 56px;
+  /* font-size: 56px; */
+  font-size: 32px;
   line-height: 115%;
   letter-spacing: -0.02em;
 }
@@ -81,7 +84,8 @@ h5{
 }
 
 .body-1{
-  font-size: 16px;
+  /* font-size: 16px; */
+  font-size: 12px;
   line-height: 180%;
   letter-spacing: -0.02em;
 }
@@ -92,6 +96,10 @@ h5{
 .body-3{
   font-size: 12px;
   line-height: 125%;
+}
+.text-xxs{
+  font-size: 8px;
+  line-height: 100%;
 }
 
 .capt-1{
@@ -140,3 +148,36 @@ section.invest p{
 section.newsletter{
   background: linear-gradient(93.42deg, #03001E -3.17%, #7303C0 31.28%, #EC38BC 67.93%, #FDEFF9 105.18%);
 }
+@media (min-width: 640px) {  }
+@media (min-width: 768px) {  }
+@media (min-width: 1024px) { 
+  h1{
+    font-size: 80px;
+  }
+  h2{
+    font-size: 64px;
+  }
+  h3{
+    font-size: 56px;
+  }
+  h4{
+    font-size: 32px;
+  }
+  h5{
+    font-size: 18px;
+  }
+  
+  .body-1{
+    font-size: 16px;
+  }
+  .body-2{
+    font-size: 14px;
+  }
+  .body-3{
+    font-size: 12px;
+  }
+  .text-xxs{
+    font-size: 12px;
+  }
+}
+@media (min-width: 1280px) {  }
