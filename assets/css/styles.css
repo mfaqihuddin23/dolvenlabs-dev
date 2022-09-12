@@ -843,6 +843,10 @@ body{
   left: 0px;
 }
 
+.top-32{
+  top: 8rem;
+}
+
 .z-20{
   z-index: 20;
 }
@@ -898,8 +902,8 @@ body{
   margin-right: 2.75rem;
 }
 
-.mb-20{
-  margin-bottom: 5rem;
+.mb-6{
+  margin-bottom: 1.5rem;
 }
 
 .mb-10{
@@ -914,12 +918,12 @@ body{
   margin-bottom: 9rem;
 }
 
-.mb-24{
-  margin-bottom: 6rem;
-}
-
 .mb-7{
   margin-bottom: 1.75rem;
+}
+
+.mb-14{
+  margin-bottom: 3.5rem;
 }
 
 .mb-1{
@@ -930,12 +934,8 @@ body{
   margin-bottom: 2rem;
 }
 
-.mb-14{
-  margin-bottom: 3.5rem;
-}
-
-.mb-6{
-  margin-bottom: 1.5rem;
+.mb-20{
+  margin-bottom: 5rem;
 }
 
 .mb-12{
@@ -944,10 +944,6 @@ body{
 
 .mt-6{
   margin-top: 1.5rem;
-}
-
-.mb-60{
-  margin-bottom: 15rem;
 }
 
 .mb-2{
@@ -1008,10 +1004,6 @@ body{
   width: 58.333333%;
 }
 
-.w-5\/12{
-  width: 41.666667%;
-}
-
 .w-10\/12{
   width: 83.333333%;
 }
@@ -1068,8 +1060,8 @@ body{
   justify-content: space-between;
 }
 
-.gap-7{
-  gap: 1.75rem;
+.gap-5{
+  gap: 1.25rem;
 }
 
 .overflow-hidden{
@@ -1271,34 +1263,44 @@ body{
   padding-bottom: 1rem;
 }
 
-.py-12{
-  padding-top: 3rem;
-  padding-bottom: 3rem;
+.py-6{
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
 }
 
-.py-28{
-  padding-top: 7rem;
-  padding-bottom: 7rem;
-}
-
-.py-32{
-  padding-top: 8rem;
-  padding-bottom: 8rem;
-}
-
-.px-14{
-  padding-left: 3.5rem;
-  padding-right: 3.5rem;
-}
-
-.py-9{
-  padding-top: 2.25rem;
-  padding-bottom: 2.25rem;
+.py-16{
+  padding-top: 4rem;
+  padding-bottom: 4rem;
 }
 
 .py-14{
   padding-top: 3.5rem;
   padding-bottom: 3.5rem;
+}
+
+.py-12{
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+.px-5{
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+}
+
+.py-5{
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
+}
+
+.px-3{
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
+}
+
+.py-9{
+  padding-top: 2.25rem;
+  padding-bottom: 2.25rem;
 }
 
 .pr-4{
@@ -1315,10 +1317,6 @@ body{
 
 .pl-4{
   padding-left: 1rem;
-}
-
-.pl-16{
-  padding-left: 4rem;
 }
 
 .pt-16{
@@ -1431,6 +1429,10 @@ body{
   font-family: 'Poppins', sans-serif;
 }
 
+.cursors{
+  cursor: url('/assets/images/img-cursor-special.png'), auto;
+}
+
 .garis-gradient{
   position: relative;
   display: inline-flex;
@@ -1477,7 +1479,8 @@ body{
 }
 
 h1{
-  font-size: 80px;
+  /* font-size: 80px; */
+  font-size: 32px;
   line-height: 125%;
   letter-spacing: -0.02em;
 }
@@ -1497,7 +1500,8 @@ h3{
 }
 
 h4{
-  font-size: 32px;
+  /* font-size: 32px; */
+  font-size: 18px;
   line-height: 140%;
   letter-spacing: -0.02em;
 }
@@ -1564,6 +1568,10 @@ section.slide p{
   letter-spacing: -0.04em;
 }
 
+.slidecont{
+  transition-timing-function: linear !important;
+}
+
 .swiper{
   width: auto;
   height: auto;
@@ -1582,11 +1590,16 @@ section.invest p{
 
 .keypoint-box{
   padding: 75px;
+  /* cursor: url('/assets/images/img-cursor-special.png'), auto; */
 }
 
 .profile-holder{
   width: 170px;
   height: 170px;
+}
+
+section.applynow h2{
+  font-size: 24px;
 }
 
 section.newsletter{
@@ -1639,6 +1652,10 @@ section.newsletter{
   section.header video{
     max-width: 100%;
     width: auto;
+  }
+
+  section.applynow h2{
+    font-size: 64px;
   }
 }
 
@@ -1706,6 +1723,10 @@ section.newsletter{
 }
 
 @media (min-width: 768px){
+  .md\:absolute{
+    position: absolute;
+  }
+
   .md\:order-2{
     order: 2;
   }
@@ -1726,6 +1747,10 @@ section.newsletter{
     margin-bottom: 1.5rem;
   }
 
+  .md\:mb-20{
+    margin-bottom: 5rem;
+  }
+
   .md\:mb-0{
     margin-bottom: 0px;
   }
@@ -1734,8 +1759,16 @@ section.newsletter{
     margin-right: 1rem;
   }
 
+  .md\:mb-24{
+    margin-bottom: 6rem;
+  }
+
   .md\:ml-4{
     margin-left: 1rem;
+  }
+
+  .md\:mb-10{
+    margin-bottom: 2.5rem;
   }
 
   .md\:mr-8{
@@ -1744,6 +1777,18 @@ section.newsletter{
 
   .md\:ml-8{
     margin-left: 2rem;
+  }
+
+  .md\:mb-60{
+    margin-bottom: 15rem;
+  }
+
+  .md\:block{
+    display: block;
+  }
+
+  .md\:inline-block{
+    display: inline-block;
   }
 
   .md\:flex{
@@ -1774,6 +1819,10 @@ section.newsletter{
     width: 33.333333%;
   }
 
+  .md\:w-8\/12{
+    width: 66.666667%;
+  }
+
   .md\:grid-cols-3{
     grid-template-columns: repeat(3, minmax(0, 1fr));
   }
@@ -1788,6 +1837,10 @@ section.newsletter{
 
   .md\:items-start{
     align-items: flex-start;
+  }
+
+  .md\:gap-7{
+    gap: 1.75rem;
   }
 
   .md\:space-x-8 > :not([hidden]) ~ :not([hidden]){
@@ -1817,6 +1870,48 @@ section.newsletter{
   .md\:py-4{
     padding-top: 1rem;
     padding-bottom: 1rem;
+  }
+
+  .md\:py-12{
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+  }
+
+  .md\:py-28{
+    padding-top: 7rem;
+    padding-bottom: 7rem;
+  }
+
+  .md\:py-32{
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+  }
+
+  .md\:py-0{
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+
+  .md\:py-8{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+
+  .md\:px-14{
+    padding-left: 3.5rem;
+    padding-right: 3.5rem;
+  }
+
+  .md\:pl-16{
+    padding-left: 4rem;
+  }
+
+  .md\:pt-16{
+    padding-top: 4rem;
+  }
+
+  .md\:text-left{
+    text-align: left;
   }
 
   .md\:text-start{

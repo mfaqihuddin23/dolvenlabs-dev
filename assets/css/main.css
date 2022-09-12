@@ -13,6 +13,10 @@ body{
   background: #030102;
   font-family: 'Poppins', sans-serif;
 }
+.cursors{
+  cursor: url('/assets/images/img-cursor-special.png'), auto;
+}
+
 .garis-gradient{
   position: relative;
     display: inline-flex;
@@ -56,7 +60,8 @@ body{
 }
 
 h1{
-  font-size: 80px;
+  /* font-size: 80px; */
+  font-size: 32px;
   line-height: 125%;
   letter-spacing: -0.02em;
 }
@@ -73,7 +78,8 @@ h3{
   letter-spacing: -0.02em;
 }
 h4{
-  font-size: 32px;
+  /* font-size: 32px; */
+  font-size: 18px;
   line-height: 140%;
   letter-spacing: -0.02em;
 }
@@ -130,6 +136,10 @@ section.slide h4{
 section.slide p{
   letter-spacing: -0.04em;
 }
+.slidecont{
+  
+  transition-timing-function: linear !important;
+}
 .swiper{
   width: auto;
   height: auto;
@@ -143,11 +153,15 @@ section.invest p{
 }
 .keypoint-box{
   padding: 75px;
+  /* cursor: url('/assets/images/img-cursor-special.png'), auto; */
 }
 
 .profile-holder{
   width: 170px;
   height: 170px;
+}
+section.applynow h2{
+  font-size: 24px;
 }
 section.newsletter{
   background: linear-gradient(93.42deg, #03001E -3.17%, #7303C0 31.28%, #EC38BC 67.93%, #FDEFF9 105.18%);
@@ -187,6 +201,9 @@ section.newsletter{
   section.header video{
     max-width: 100%;
     width: auto;
+  }
+  section.applynow h2{
+    font-size: 64px;
   }
 }
 @media (min-width: 1280px) {  }
