@@ -119,6 +119,10 @@ section{
 section.header .body-1{
   max-width: 600px;
 }
+section.header video{
+  /* max-width: none; */
+  /* width: 768px; */
+}
 section.slide h4{
   line-height: 125%;
   letter-spacing: 0.3em;
@@ -178,6 +182,11 @@ section.newsletter{
   }
   .text-xxs{
     font-size: 12px;
+  }
+
+  section.header video{
+    max-width: 100%;
+    width: auto;
   }
 }
 @media (min-width: 1280px) {  }

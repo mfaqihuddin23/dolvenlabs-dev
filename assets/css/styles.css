@@ -914,20 +914,12 @@ body{
   margin-bottom: 9rem;
 }
 
-.mr-4{
-  margin-right: 1rem;
-}
-
 .mb-24{
   margin-bottom: 6rem;
 }
 
 .mb-7{
   margin-bottom: 1.75rem;
-}
-
-.ml-4{
-  margin-left: 1rem;
 }
 
 .mb-1{
@@ -938,16 +930,8 @@ body{
   margin-bottom: 2rem;
 }
 
-.mr-8{
-  margin-right: 2rem;
-}
-
 .mb-14{
   margin-bottom: 3.5rem;
-}
-
-.ml-8{
-  margin-left: 2rem;
 }
 
 .mb-6{
@@ -1020,20 +1004,12 @@ body{
   width: 66.666667%;
 }
 
-.w-5\/12{
-  width: 41.666667%;
-}
-
 .w-7\/12{
   width: 58.333333%;
 }
 
-.w-4\/12{
-  width: 33.333333%;
-}
-
-.w-6\/12{
-  width: 50%;
+.w-5\/12{
+  width: 41.666667%;
 }
 
 .w-10\/12{
@@ -1056,10 +1032,6 @@ body{
   list-style-type: disc;
 }
 
-.grid-cols-3{
-  grid-template-columns: repeat(3, minmax(0, 1fr));
-}
-
 .grid-cols-2{
   grid-template-columns: repeat(2, minmax(0, 1fr));
 }
@@ -1068,16 +1040,8 @@ body{
   grid-template-rows: repeat(3, minmax(0, 1fr));
 }
 
-.flex-row-reverse{
-  flex-direction: row-reverse;
-}
-
 .flex-col{
   flex-direction: column;
-}
-
-.flex-col-reverse{
-  flex-direction: column-reverse;
 }
 
 .flex-wrap{
@@ -1586,6 +1550,11 @@ section.header .body-1{
   max-width: 600px;
 }
 
+section.header video{
+  /* max-width: none; */
+  /* width: 768px; */
+}
+
 section.slide h4{
   line-height: 125%;
   letter-spacing: 0.3em;
@@ -1665,6 +1634,11 @@ section.newsletter{
 
   .text-xxs{
     font-size: 12px;
+  }
+
+  section.header video{
+    max-width: 100%;
+    width: auto;
   }
 }
 
@@ -1810,6 +1784,10 @@ section.newsletter{
 
   .md\:flex-row-reverse{
     flex-direction: row-reverse;
+  }
+
+  .md\:items-start{
+    align-items: flex-start;
   }
 
   .md\:space-x-8 > :not([hidden]) ~ :not([hidden]){
