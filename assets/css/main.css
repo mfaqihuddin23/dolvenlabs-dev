@@ -17,6 +17,9 @@ body{
   cursor: url('/assets/images/img-cursor-special.png'), auto;
 }
 
+.linevert{
+  border-right: 1px solid white;
+}
 .garis-gradient{
   position: relative;
     display: inline-flex;
