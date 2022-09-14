@@ -23,6 +23,8 @@ body{
 
   background: linear-gradient(156.62deg, #EB4694 -4.15%, #EC3CC2 84.91%);
   filter: blur(600px);
+
+  z-index: -1;
 }
 .linevert{
   border-right: 1px solid white;

@@ -58,7 +58,8 @@
     </div>
   </nav>
   
-  <section class="header">
+  <section class="header relative">
+    <div class="light-ornamen absolute left-0 top-28 "></div>
     <div class="relative container">
       <div class="absolute z-10 top-0 w-11/12 flex flex-col items-end">
         <div class="linevert h-44 mb-6 mr-3"></div>
@@ -193,7 +194,9 @@
       </div>
     </div>
   </section>
-  <section class="funding py-6 md:py-12">
+  <section class="funding py-6 md:py-12 relative">
+    <div class="light-ornamen absolute right-0 top-0 "></div>
+    <div class="light-ornamen absolute left-0 bottom-0 "></div>
     <div class="container">
       <div class="flex flex-col md:flex-row justify-between mb-36">
         <div class="md:w-7/12 mb-10 md:mb-0">
@@ -396,6 +399,7 @@
     </div>
   </section>
   <section class="keypoint py-12 md:py-32 relative ">
+    <div class="light-ornamen absolute top-0 "></div>
     <div class="container">
       <div class="flex flex-col md:flex-row">
         <div class="circle-light absolute rounded-full" id="circle-light"></div>
@@ -1152,8 +1156,8 @@
   </section>
   <section class="footer pt-16 pb-10">
     <div class="container">
-      <div class="grid grid-rows-3 md:grid-cols-3 md:gap-7">
-        <div class="brand-footer flex flex-col items-center">
+      <div class="grid grid-rows-3 md:grid-rows-none md:grid-cols-3 md:gap-7">
+        <div class="brand-footer flex flex-col items-center md:items-start">
           <img src="/assets/images/logo-dolvenlabs-white.png" alt="">
           <div class="body-1 font-normal text-white mt-6 md:mb-60 mb-2">
             Govern Better, Together
@@ -1241,11 +1245,14 @@
                 </p>
               </a>
             </div>
-            <a href="#">
-              <div class="body-1 font-normal text-dolvenCol-800">
-                Privacy Policy
-              </div>
-            </a>
+            <div class="link-wrap hidden md:block">
+              <a href="#">
+                <div class="body-1 font-normal text-dolvenCol-800">
+                  Privacy Policy
+                </div>
+              </a>
+            </div>
+            
           </div>
           <div class="nav-foot flex flex-col justify-between">
             <div class="menu">
@@ -1290,12 +1297,30 @@
                 </div>
               </div>
             </div>
-            <a href="#">
-              <div class="body-1 font-normal text-dolvenCol-800">
-                Terms and Conditions
-              </div>
-            </a>
+            <div class="link-wrap hidden md:block">
+              <a href="#">
+                <div class="body-1 font-normal text-dolvenCol-800">
+                  Terms and Conditions
+                </div>
+              </a>
+            </div>
           </div>
+        </div>
+      </div>
+      <div class="flex justify-end">
+        <div class="link-wrap md:hidden mr-6">
+          <a href="#">
+            <div class="body-1 font-normal text-dolvenCol-800">
+              Privacy Policy
+            </div>
+          </a>
+        </div>
+        <div class="link-wrap md:hidden">
+          <a href="#">
+            <div class="body-1 font-normal text-dolvenCol-800">
+              Terms and Conditions
+            </div>
+          </a>
         </div>
       </div>
     </div>

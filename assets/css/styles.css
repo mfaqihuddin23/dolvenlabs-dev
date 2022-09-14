@@ -847,6 +847,26 @@ body{
   top: 8rem;
 }
 
+.top-10{
+  top: 2.5rem;
+}
+
+.top-20{
+  top: 5rem;
+}
+
+.top-28{
+  top: 7rem;
+}
+
+.right-0{
+  right: 0px;
+}
+
+.bottom-0{
+  bottom: 0px;
+}
+
 .z-20{
   z-index: 20;
 }
@@ -962,6 +982,10 @@ body{
   margin-left: 0.5rem;
 }
 
+.mr-6{
+  margin-right: 1.5rem;
+}
+
 .block{
   display: block;
 }
@@ -1044,6 +1068,10 @@ body{
   grid-template-columns: repeat(2, minmax(0, 1fr));
 }
 
+.grid-cols-4{
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+}
+
 .grid-rows-3{
   grid-template-rows: repeat(3, minmax(0, 1fr));
 }
@@ -1072,6 +1100,10 @@ body{
   justify-content: flex-start;
 }
 
+.justify-end{
+  justify-content: flex-end;
+}
+
 .justify-center{
   justify-content: center;
 }
@@ -1082,6 +1114,10 @@ body{
 
 .gap-5{
   gap: 1.25rem;
+}
+
+.gap-10{
+  gap: 2.5rem;
 }
 
 .overflow-hidden{
@@ -1463,6 +1499,7 @@ body{
   height: 363px;
   background: linear-gradient(156.62deg, #EB4694 -4.15%, #EC3CC2 84.91%);
   filter: blur(600px);
+  z-index: -1;
 }
 
 .linevert{
@@ -1815,6 +1852,10 @@ section.newsletter{
     margin-bottom: 15rem;
   }
 
+  .md\:mr-10{
+    margin-right: 2.5rem;
+  }
+
   .md\:block{
     display: block;
   }
@@ -1857,6 +1898,10 @@ section.newsletter{
 
   .md\:grid-cols-3{
     grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  .md\:grid-rows-none{
+    grid-template-rows: none;
   }
 
   .md\:flex-row{
