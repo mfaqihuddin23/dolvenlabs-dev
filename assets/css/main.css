@@ -17,6 +17,13 @@ body{
   cursor: url('/assets/images/img-cursor-special.png'), auto;
 }
 
+.light-ornamen{
+  width: 363px;
+  height: 363px;
+
+  background: linear-gradient(156.62deg, #EB4694 -4.15%, #EC3CC2 84.91%);
+  filter: blur(600px);
+}
 .linevert{
   border-right: 1px solid white;
 }

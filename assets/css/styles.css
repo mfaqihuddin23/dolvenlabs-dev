@@ -847,14 +847,6 @@ body{
   top: 8rem;
 }
 
-.right-0{
-  right: 0px;
-}
-
-.right-5{
-  right: 1.25rem;
-}
-
 .z-20{
   z-index: 20;
 }
@@ -894,6 +886,18 @@ body{
   margin-right: 0.5rem;
 }
 
+.mb-6{
+  margin-bottom: 1.5rem;
+}
+
+.mb-8{
+  margin-bottom: 2rem;
+}
+
+.mb-0{
+  margin-bottom: 0px;
+}
+
 .mb-44{
   margin-bottom: 11rem;
 }
@@ -912,10 +916,6 @@ body{
 
 .mr-11{
   margin-right: 2.75rem;
-}
-
-.mb-6{
-  margin-bottom: 1.5rem;
 }
 
 .mb-10{
@@ -942,10 +942,6 @@ body{
   margin-bottom: 0.25rem;
 }
 
-.mb-8{
-  margin-bottom: 2rem;
-}
-
 .mb-20{
   margin-bottom: 5rem;
 }
@@ -964,14 +960,6 @@ body{
 
 .ml-2{
   margin-left: 0.5rem;
-}
-
-.mb-0{
-  margin-bottom: 0px;
-}
-
-.mr-6{
-  margin-right: 1.5rem;
 }
 
 .block{
@@ -998,16 +986,12 @@ body{
   height: 1.5rem;
 }
 
-.h-full{
-  height: 100%;
-}
-
-.h-3{
-  height: 0.75rem;
-}
-
 .h-44{
   height: 11rem;
+}
+
+.h-full{
+  height: 100%;
 }
 
 .w-full{
@@ -1016,6 +1000,10 @@ body{
 
 .w-6{
   width: 1.5rem;
+}
+
+.w-11\/12{
+  width: 91.666667%;
 }
 
 .w-max{
@@ -1034,10 +1022,6 @@ body{
 
 .w-10\/12{
   width: 83.333333%;
-}
-
-.w-11\/12{
-  width: 91.666667%;
 }
 
 .max-w-md{
@@ -1324,6 +1308,11 @@ body{
   padding-right: 1.25rem;
 }
 
+.py-7{
+  padding-top: 1.75rem;
+  padding-bottom: 1.75rem;
+}
+
 .py-5{
   padding-top: 1.25rem;
   padding-bottom: 1.25rem;
@@ -1467,6 +1456,13 @@ body{
 
 .cursors{
   cursor: url('/assets/images/img-cursor-special.png'), auto;
+}
+
+.light-ornamen{
+  width: 363px;
+  height: 363px;
+  background: linear-gradient(156.62deg, #EB4694 -4.15%, #EC3CC2 84.91%);
+  filter: blur(600px);
 }
 
 .linevert{
@@ -1921,11 +1917,6 @@ section.newsletter{
   .md\:py-32{
     padding-top: 8rem;
     padding-bottom: 8rem;
-  }
-
-  .md\:py-0{
-    padding-top: 0px;
-    padding-bottom: 0px;
   }
 
   .md\:py-8{

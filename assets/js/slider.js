@@ -2,11 +2,12 @@ const swiper = new Swiper('.swiper', {
   slidesPerView: 'auto',
   // Optional parameters
   direction: 'horizontal',
-  freeMode: false,
+  freeMode: true,
   speed: 5000,
   loop: true,
   autoplay: {
-    delay: 0,
+    delay: 1,
+    disableOnInteraction: false
   },
 
   // If we need pagination
@@ -35,7 +36,8 @@ const swiper1 = new Swiper('.swiper1', {
   loop: true,
   autoplay: {
   reverseDirection: true,
-  delay: 0,
+  delay: 1,
+  disableOnInteraction: false
   },
 
   // If we need pagination
@@ -65,6 +67,7 @@ const swiper2 = new Swiper('.swiper2', {
   loop: true,
   autoplay: {
     delay: 0,
+    disableOnInteraction: false
   },
 
   // If we need pagination
@@ -95,6 +98,7 @@ const swiper3 = new Swiper('.swiper3', {
   autoplay: {
     delay: 0,
     reverseDirection: true,
+    disableOnInteraction: false
   },
 
   // If we need pagination
