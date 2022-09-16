@@ -216,6 +216,7 @@ section.newsletter{
   }
   section.applynow h2{
     font-size: 64px;
+    max-width: 567px;
   }
 }
 @media (min-width: 1280px) {  }
