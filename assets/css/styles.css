@@ -1137,6 +1137,10 @@ body{
   border-color: rgb(255 255 255 / var(--tw-border-opacity));
 }
 
+.bg-transparent{
+  background-color: transparent;
+}
+
 .bg-blue-700{
   --tw-bg-opacity: 1;
   background-color: rgb(29 78 216 / var(--tw-bg-opacity));
@@ -1164,10 +1168,6 @@ body{
 .bg-dolvenCol-600{
   --tw-bg-opacity: 1;
   background-color: rgb(172 58 240 / var(--tw-bg-opacity));
-}
-
-.bg-transparent{
-  background-color: transparent;
 }
 
 .bg-gradient-to-r{
